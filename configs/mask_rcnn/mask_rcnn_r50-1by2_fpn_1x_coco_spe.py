@@ -5,7 +5,7 @@ base_channels = 32
 model = dict(
     type='MaskRCNN',
     pretrained=  # noqa
-    '/mnt/lustre/share/lixinran/ckpt/mmspe/faster_resnet50_1by2_converted.pth',  # noqa
+    '/mnt/lustre/share/lixinran/ckpt/mmspe/faster_resnet50_1by2.pth',  # noqa
     backbone=dict(
         type='FasterResNet',
         faster=True,
